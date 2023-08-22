@@ -1,0 +1,63 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31205.134
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "data-access-layer", "data-access-layer\data-access-layer.csproj", "{A04B273C-3340-494F-9836-00C97E9587A5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "crawler-base", "crawler-base\crawler-base.csproj", "{00CE7179-90D7-452E-B823-7FD9F584A8D8}"
+	ProjectSection(ProjectDependencies) = postProject
+		{47AA0402-293C-441D-83C5-0FF2752AC9B2} = {47AA0402-293C-441D-83C5-0FF2752AC9B2}
+		{A04B273C-3340-494F-9836-00C97E9587A5} = {A04B273C-3340-494F-9836-00C97E9587A5}
+		{3D85CD6E-702B-48DD-AF1E-716A8B9372F0} = {3D85CD6E-702B-48DD-AF1E-716A8B9372F0}
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "crawler-test", "crawler-test\crawler-test.csproj", "{EE4D499F-E3DB-49A4-A7EB-A96878F829AB}"
+	ProjectSection(ProjectDependencies) = postProject
+		{3D85CD6E-702B-48DD-AF1E-716A8B9372F0} = {3D85CD6E-702B-48DD-AF1E-716A8B9372F0}
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "web-page-parser", "web-page-parser\web-page-parser.csproj", "{3D85CD6E-702B-48DD-AF1E-716A8B9372F0}"
+	ProjectSection(ProjectDependencies) = postProject
+		{A04B273C-3340-494F-9836-00C97E9587A5} = {A04B273C-3340-494F-9836-00C97E9587A5}
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "service-layer", "service-layer\service-layer.csproj", "{47AA0402-293C-441D-83C5-0FF2752AC9B2}"
+	ProjectSection(ProjectDependencies) = postProject
+		{A04B273C-3340-494F-9836-00C97E9587A5} = {A04B273C-3340-494F-9836-00C97E9587A5}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A04B273C-3340-494F-9836-00C97E9587A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A04B273C-3340-494F-9836-00C97E9587A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A04B273C-3340-494F-9836-00C97E9587A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A04B273C-3340-494F-9836-00C97E9587A5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{00CE7179-90D7-452E-B823-7FD9F584A8D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{00CE7179-90D7-452E-B823-7FD9F584A8D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{00CE7179-90D7-452E-B823-7FD9F584A8D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{00CE7179-90D7-452E-B823-7FD9F584A8D8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EE4D499F-E3DB-49A4-A7EB-A96878F829AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE4D499F-E3DB-49A4-A7EB-A96878F829AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE4D499F-E3DB-49A4-A7EB-A96878F829AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE4D499F-E3DB-49A4-A7EB-A96878F829AB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3D85CD6E-702B-48DD-AF1E-716A8B9372F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D85CD6E-702B-48DD-AF1E-716A8B9372F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D85CD6E-702B-48DD-AF1E-716A8B9372F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D85CD6E-702B-48DD-AF1E-716A8B9372F0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{47AA0402-293C-441D-83C5-0FF2752AC9B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{47AA0402-293C-441D-83C5-0FF2752AC9B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{47AA0402-293C-441D-83C5-0FF2752AC9B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{47AA0402-293C-441D-83C5-0FF2752AC9B2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8F6EFC0B-4E62-4500-8928-D2D4315A8B64}
+	EndGlobalSection
+EndGlobal

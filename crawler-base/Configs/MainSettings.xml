@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<configuration>
+  <configSections>
+    <section name="mainSettings" type="service_layer.Settings.SettingsConfiguration, service-layer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" allowLocation="true" allowDefinition="Everywhere" allowExeDefinition="MachineToLocalUser" requirePermission="true"/>
+  </configSections>
+  <mainSettings saveDirectory="%currentDirectory%" taskDelayInMinutes="60">
+    <printers>
+      <printer ip="10.6.1.59"   type="LexmarkMX421ade"/>
+      <printer ip="10.6.1.205"  type="LexmarkMX421ade"/>
+      <printer ip="10.6.1.57"   type="OkiMB491"                 login="admin" password="aaaaaa"/>
+      <printer ip="10.6.1.207"  type="OkiMB491"                 login="admin" password="aaaaaa"/>
+      <printer ip="10.6.1.68"   type="OkiMB491"                 login="admin" password="aaaaaa"/>
+      <printer ip="10.6.1.54"   type="XeroxWorkCentre3325"/>
+      <printer ip="10.6.1.69"   type="XeroxPhaser4620"/>
+      <printer ip="10.6.1.53"   type="HpLaserJet4250"/>
+      <printer ip="10.6.1.63"   type="HpLaserJetP3005"/>
+      <printer ip="10.6.1.55"   type="KyoceraEcosysP5021cdn"/>
+      <!--<printer ip="10.6.1.60" type="CanonLBP6670" login="Administrator" password="7654321"/>-->
+    </printers>
+  </mainSettings>
+  <startup>
+    <supportedRuntime version="v4.0" sku=".NETFramework,Version=v4.5.2" />
+  </startup>
+</configuration>

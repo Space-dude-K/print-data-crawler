@@ -1,0 +1,164 @@
+[
+  {
+    "PrinterType": "OkiMB491",
+	"Url": "http://%IP%/printer/infotosave.htm",
+	"ContentExtension": "html",
+    "Headers": {
+      "Host": "%IP%",
+      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:52.0) Gecko/20100101 Firefox/52.0",
+      "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+      "Accept-Language": "ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3",
+      "Accept-Encoding": "gzip, deflate",
+      "Referer": "http://%IP%/printer/printsumconfirm.htm",
+      "Cache-control": "max-age=0",
+      "Upgrade-Insecure-Requests": "1",
+      "Cookie": "NEVERSHOW=1"
+    }
+  },
+  {
+    "PrinterType": "LexmarkMX421ade",
+	"Url": "http://%IP%/webglue/getReport?name=ReportDeviceStatistics&lang=en",
+	"ContentExtension": "html",
+    "Headers": {
+      "Host": "%IP%",
+      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:52.0) Gecko/20100101 Firefox/52.0",
+      "Accept": "text/html, */*; q=0.01",
+      "Accept-Language": "en-US;q=0.5,en;q=0.3",
+      "Accept-Encoding": "gzip, deflate",
+      "Referer": "http://%IP%/",
+      "Content-type": "application/x-www-form-urlencoded; charset=utf-8",
+      "X-Requested-With": "XMLHttpRequest",
+      "Cookie": "lang=en"
+    }
+  },
+  {
+    "PrinterType": "LexmarkMS421dn ",
+	"Url": "http://%IP%/webglue/getReport?name=ReportDeviceStatistics&lang=en",
+	"ContentExtension": "html",
+    "Headers": {
+      "Host": "%IP%",
+      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:52.0) Gecko/20100101 Firefox/52.0",
+      "Accept": "text/html, */*; q=0.01",
+      "Accept-Language": "en-US;q=0.5,en;q=0.3",
+      "Accept-Encoding": "gzip, deflate",
+      "Referer": "http://%IP%/",
+      "Content-type": "application/x-www-form-urlencoded; charset=utf-8",
+      "X-Requested-With": "XMLHttpRequest",
+      "Cookie": "lang=en"
+    }
+  },
+  {
+    "PrinterType": "LexmarkMB2236adw",
+	"Url": "http://%IP%/webglue/getReport?name=ReportDeviceStatistics&lang=en",
+	"ContentExtension": "html",
+    "Headers": {
+      "Host": "%IP%",
+      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:52.0) Gecko/20100101 Firefox/52.0",
+      "Accept": "text/html, */*; q=0.01",
+      "Accept-Language": "en-US;q=0.5,en;q=0.3",
+      "Accept-Encoding": "gzip, deflate",
+      "Referer": "http://%IP%/",
+      "Content-type": "application/x-www-form-urlencoded; charset=utf-8",
+      "X-Requested-With": "XMLHttpRequest",
+      "Cookie": "lang=en"
+    }
+  },
+  {
+    "PrinterType": "XeroxWorkCentre3325",
+	"Url": "http://%IP%/sws/app/information/counters/counters.json",
+	"AdditionalUrl": "http://%IP%/sws/app/information/supplies/supplies.json",
+	"ContentExtension": "json",
+    "Headers": {
+      "Host": "%IP%",
+      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:52.0) Gecko/20100101 Firefox/52.0",
+      "Accept": "*/*",
+      "Accept-Language": "en-US;q=0.5,en;q=0.3",
+      "Accept-Encoding": "gzip, deflate",
+      "Referer": "http://%IP%/sws/index.html",
+      "Content-type": "application/x-www-form-urlencoded; charset=utf-8",
+      "Cookie": "language=ru; xuser=SWS2.0; Authentication=Basic YWRtaW46dXNlcg=="
+    }
+  },
+  {
+    "PrinterType": "XeroxPhaser4620",
+	"Url": "http://%IP%/properties/GeneralSetup/BillingCounters/usage_counters.dhtml",
+	"AdditionalUrl": "http://10.6.1.69/status/consumables.dhtml",
+	"ContentExtension": "html",
+    "Headers": {
+      "Host": "%IP%",
+      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:52.0) Gecko/20100101 Firefox/52.0",
+      "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+      "Accept-Language": "en-US;q=0.5,en;q=0.3",
+      "Accept-Encoding": "gzip, deflate",
+      "Referer": "http://%IP%/properties/index.dhtml",
+      "Cookie": "propSelected=12; BrowserIndex=1617097724708; propHierarchy=1111011111; statusSelected=1; statusHierarchy=",
+	  "Update-Insecure-Requests": "1"
+    }
+  },
+  {
+    "PrinterType": "HpLaserJet4250",
+	"Url": "http://%IP%/hp/device/this.LCDispatcher?nav=hp.Usage",
+	"AdditionalUrl": "http://%IP%/hp/device/this.LCDispatcher?nav=hp.Supplies",
+	"ContentExtension": "html",
+    "Headers": {
+      "Host": "%IP%",
+      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:52.0) Gecko/20100101 Firefox/52.0",
+      "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+      "Accept-Language": "en-US;q=0.5,en;q=0.3",
+      "Accept-Encoding": "gzip, deflate",
+      "Referer": "http://%IP%/hp/device/this.LCDispatcher?nav=hp.Supplies",
+      "Content-type": "application/x-www-form-urlencoded; charset=utf-8",
+      "Cookie": "NEVERSHOW=1",
+	  "Update-Insecure-Requests": "1"
+    }
+  },
+  {
+    "PrinterType": "HpLaserJetP3005",
+	"Url": "http://%IP%/hp/device/this.LCDispatcher?nav=hp.Usage",
+	"AdditionalUrl": "http://%IP%/hp/device/this.LCDispatcher?nav=hp.Supplies",
+	"ContentExtension": "html",
+    "Headers": {
+      "Host": "%IP%",
+      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:52.0) Gecko/20100101 Firefox/52.0",
+      "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+      "Accept-Language": "en-US;q=0.5,en;q=0.3",
+      "Accept-Encoding": "gzip, deflate",
+      "Referer": "http://%IP%/hp/device/this.LCDispatcher?nav=hp",
+      "Content-type": "application/x-www-form-urlencoded; charset=utf-8",
+      "Cookie": "NEVERSHOW=1",
+	  "Update-Insecure-Requests": "1"
+    }
+  },
+  {
+    "PrinterType": "KyoceraEcosysP5021cdn",
+	"Url": "http://%IP%/js/jssrc/model/dvcinfo/dvccounter/DvcInfo_Counter_PrnCounter.model.htm",
+	"AdditionalUrl": "http://%IP%/js/jssrc/model/startwlm/Hme_Toner.model.htm",
+	"ContentExtension": "js",
+    "Headers": {
+      "Host": "%IP%",
+      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:52.0) Gecko/20100101 Firefox/52.0",
+      "Accept": "*/*",
+      "Accept-Language": "en-US;q=0.5,en;q=0.3",
+      "Accept-Encoding": "gzip, deflate",
+      "Referer": "http://%IP%/dvcinfo/dvccounter/DvcInfo_Counter_PrnCounter.htm",
+      "Content-type": "application/x-www-form-urlencoded; charset=utf-8",
+      "Cookie": "rtl=0; cert_id=1; type=0; level=1; css=1",
+	  "Update-Insecure-Requests": "1"
+    }
+  },
+  {
+    "PrinterType": "CanonLBP6670",
+	"Url": "http://%IP%/tlogin.cgi",
+	"ContentExtension": "html",
+	"PostAuthentication": "true",
+    "Headers": {
+      "Host": "%IP%",
+      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:52.0) Gecko/20100101 Firefox/52.0",
+      "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+      "Accept-Language": "en-US;q=0.5,en;q=0.3",
+      "Accept-Encoding": "gzip, deflate",
+      "Referer": "http://%IP%/sysmon.cgi",
+	  "Update-Insecure-Requests": "1"
+    }
+  }
+]
